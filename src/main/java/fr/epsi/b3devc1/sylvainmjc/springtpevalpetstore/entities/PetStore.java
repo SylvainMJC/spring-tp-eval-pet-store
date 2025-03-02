@@ -1,8 +1,6 @@
 package fr.epsi.b3devc1.sylvainmjc.springtpevalpetstore.entities;
 
-
 import jakarta.persistence.*;
-
 import java.util.List;
 
 @Entity
