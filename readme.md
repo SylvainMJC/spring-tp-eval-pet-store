@@ -2,14 +2,21 @@
 
 
 ### Nom : CONAN
-### Prénom Sylvain
+### Prénom : Sylvain
 ### Classe : B3 - DEVIA FS - C1
 
 J'ai utilisé mariaDB come BDD. 
 
-Précisez vos configurations datasource dans le fichier application.properties.
+### Instructions
 
-Créez une base de données nommée 'petstore' avant d'éxécuter l'appli.
+1. Précisez vos configurations datasource dans le fichier application.properties.
 
-Exécutez le fichier SprintTpPetStoreApplication.java pour peupler la BDD.
+```properties
+
+spring.datasource.url=jdbc:mariadb://localhost:3306/petstore
+```
+
+2. Créez une base de données nommée 'petstore'.
+3. Exécutez le fichier SprintTpPetStoreApplication.java pour peupler la BDD.
+
 Les résultats des requêtes sont affichés dans la console.
